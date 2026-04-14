@@ -33,6 +33,4 @@ http://cis190a.nupurple.net/dsantos/Music/index.html
 
 ## Notes
 
-## Notes
-
 This project highlights my ability to design and structure a multi-page website with a focus on clean layout, organized content, and user-friendly navigation.
