@@ -1,0 +1,387 @@
+/*
+	Name: Damian Santos
+	Date Created: 9/16/25
+	Last Edit: 10/30/25
+
+*/
+
+/* style rules for main */
+body, header, nav, main, footer, img, h1, ul, section, figure, figcaption, aside {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style for universal */
+* {
+	box-sizing: border-box;
+}
+
+img{
+	max-width:100%;
+	display: block;
+}
+
+
+main {
+	font-family: 'Roboto', sans-serif;
+	background-color: #e5e9fc;
+	overflow: auto;
+	/* padding-top: 2%;
+	padding-bottom: 10px;   
+	padding-right: .5em;
+	padding-left: 4%;
+	padding: 10px 2% 4em 40px; Top Right Bottom Left
+	padding: 100px 5%; Top/Bottom Right/Left */
+	padding: 2%; /* apply the 2% to all four padding */
+	/*
+	border-top-style: solid;
+	border-bottom-style: dotted;
+	border-right-style: double;
+	border-left-style: outset;
+	border-style: dashed;
+	border-width: 20px;
+	border-color: blue;
+	border: 5px double green;
+	*/
+}
+
+main p {
+	font-size: 1.25em;
+}
+/* style rules for header content */
+header {
+	font-size: 1.5em;
+	color: #373684;
+	text-align: center;
+}
+
+header h1 {
+	font-family: 'DM Serif Display', serif;
+	
+}
+
+
+/* Style rules for nav content*/
+nav {
+	background-color: #373684;
+}
+
+nav li {
+	font-size: 2em;
+	display: block;
+	border-top: 1px solid #e5e9fc;
+}
+
+nav li a{
+	color: #fff;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	display: block;
+}
+
+.mobile-nav a {
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	display: block;
+	padding: 3%;
+}
+
+.mobile-nav a.menu-icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.menu-icon div {
+	height: 50px;
+	width: 50px;
+	background-color: #373684;
+}
+
+/* Style rules for the footer*/
+footer {
+	clear: Left;
+	foot-size: 0.65em;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #4654a8;
+}
+.action {
+	font-weight: bold;
+	color: #373684;
+	font-size: 1.25em;
+}
+/* Style rules for tables*/
+table {
+	width: 100%;
+	border: 1px solid #373684;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+caption{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 1%;
+}
+
+th {
+	background-color: #373684;
+	color: #fff;
+	font-size: 1,15em;
+}
+
+td,th {
+	border: 1px solid #373684;
+	padding: 2%;
+}
+
+tr:nth-child(odd) {
+	background-color: #b7b7e1;
+}
+
+#rentals h2 {
+	text-align: : center;
+}
+
+/* style rules for lesson page */
+#piano, #guitar, #violin {
+	margin: 0.2%;
+}
+
+#info {
+	background-color: #c0caf7;
+	padding: 1% 2%;
+	clear: Left;
+}
+
+#info ul {
+	margin-Left: 10%;
+}
+/* Styles for the grid layouts */
+aside {
+	text-align: center;
+	font-size: 1.5em;
+	color: #373684;
+	font-weight: bold;
+	text-shadow: 3px 3px 10px #8280cb; 
+}
+
+figure {
+	border: 8px solid #373684;
+	width: 275px;
+	margin: 2% auto;
+	position: relative;
+}
+
+figcaption {
+	color: #fff;
+	/* background-color: #373684;
+	opacity: .7; */
+	background: rgba(55,54,132,.7);
+	font-weight: bold;
+	text-align: center;
+	padding: 5% 0;
+	font-size: 1.25em;
+	font-family: Verdana, Arial, sans-serif;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+/* styles for the contact page */
+
+#contact {
+	text-align: center;
+
+}
+
+.tel-link {
+	background-color: #373684;
+	padding: 2%;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.tel-link a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+	display: block;
+}
+
+#contact .email-link {
+	color: #4645a8;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Style rules for the form */
+fieldset {
+	margin-bottom: 2%;
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+label {
+	display: block;
+	padding-top: 3px;
+}
+
+input[type=text], input[type=email], input[type=tel], select{
+	width: 100%;
+	border: 1px solid #373684;
+	border-radius: 4px;
+	padding: 6px 12px;
+	margin: 8px 0;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+textarea {
+	width: 100%;
+	border: 1px solid #373684;
+	border-radius: 4px;
+	padding: 6px 12px;
+	box-sizing: border-box;
+	height: 150px;
+	font-size: 1.1em;
+	resize: none;
+}
+
+.btn {
+	display: block;
+	margin: 0 auto;
+	background-color: #373684;
+	color: #fff;
+	padding: 2%;
+	font-size: 1.1em;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 550px) {
+	.tab-desk {
+		display: block;
+	}
+
+	span.tab-desk {
+		display: inline;
+	}
+
+	.mobile {
+		display: none;
+	}
+
+	nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	}
+
+	nav li {
+		display: inline-block;
+		border-top: none;
+		border-right: 1px solid #e5e9fc;
+		font-size: 1.5em;
+	}
+	nav li:last-child {
+		border-right: none;
+	}
+	nav li a {
+		padding: 0.25em 0.5em;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 20px;
+	}
+
+	aside {
+		grid-column: 1 / span 2;
+	}
+
+	.map {
+		width: 500px;
+		height: 450px;
+	}
+} /* closing the tablet media query */
+
+/* Media query for desktop viewport */
+@media screen and (min-width: 769px) {
+	header {
+		padding: 2%;
+	}
+	/* desktop viewport style rules for the nav area */
+	nav li a{
+		padding: 0.5em 1.5em;
+	}
+
+	nav li a:hover {
+		color: #373684;
+		background-color: #e5e9fc;
+	}
+
+	#piano, #guitar, #violin {
+		width: 29%;
+		margin: 0% 2%;
+		float: Left;
+	}
+
+	.grid {
+		grid-template-columns: auto auto auto auto;
+	}
+
+	aside {
+		grid-column: 1 / span 4;
+	}
+
+	#info ul {
+		margin-Left: 5%;
+	}
+
+	main h3 {
+		font-size: 1.5em;
+	}
+
+	table {
+		width: 70%;
+	}
+
+	/* Desktop Viewport: style rules for form */
+	form {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.form-grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 20px;
+	}
+
+	.btn, textarea {
+		grid-column: 1 / span 3;
+	}
+
+
+} /* closing the desktop media query */
+
+@media print {
+	body {
+		background-color: #fff;
+		color: #000;
+	}
+}
